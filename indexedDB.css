@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(Iamgenes/melolo.jpg);
+	background-size: 100%;
+}
+
+#contenedor{
+	width: 400px;
+	background: #03BEFA;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 5px;
+	box-shadow: 7px 13px 37px gray;
+}
+
+.control{
+	width: 100%;
+	background: 03BEFA;
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 16px;
+	border: 1px solid white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contenedor h2{
+	font-size: 30px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 30px;
+	color: white;
+}
+
+p{
+	height: 40px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 16px;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+}
+
+a{
+	color: rgb(83, 92, 102);
+	text-decoration: none;
+}
+
+a:hover{
+	color: white
+}
+
+.boton{
+	width: 100%;
+	background: turquoise;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0px;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 4px 8px 23px gray;
+}

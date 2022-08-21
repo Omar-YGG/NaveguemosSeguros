@@ -1,0 +1,107 @@
+hgroup{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+#cabeza{
+   background-color: transparent;
+   border-radius: 50px;
+   margin-bottom: 0px;
+}
+
+.seccion a{
+    text-decoration: none;
+    color: #FA2803;
+}
+
+
+.menu {
+    border-radius: 30px;
+    background: #FA2803;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu img{
+    vertical-align: middle;
+    margin: 0 0 0 0;
+}
+
+
+div
+{
+    display: block;
+    margin: 5px;
+} 
+
+a {
+    text-decoration: none;
+    color: #FAE003;
+}
+
+a:hover, a:active, a:focus { 
+    background-color: rgb(13, 91, 155);
+}
+
+body {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.pagina {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 960px;
+    background-color: #3FD6F8;
+    margin: auto;
+    padding: 25px;
+    border: 10px solid black;
+}
+
+
+.menu li{
+    list-style: none;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    background: #FA2803;
+    margin-top: 20px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.seccion{
+    margin: 20px;
+    list-style: none;
+    display: block;
+}
+
+img{
+    border: 2px solid transparent;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+
+iframe {
+    margin: 20px;
+}
+
+footer {
+    background: #FA2803;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}

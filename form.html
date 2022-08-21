@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="C:\Users\omary\OneDrive\Escritorio\PROYECTO\Iamgenes\1601482914 (1) copy.ico">
+    <!-- Se habilita el Responsive en la página Web -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Naveguemos Seguros - Registro</title>
+    <link rel="stylesheet" href="indexedDB.css">
+    
+</head>
+
+<body>
+
+    <div id="contenedor">
+    	<section>
+        <h2 align="center">Registro Usuario</h2>
+        <form name = "registro_usuario" method = "post">
+
+          <input class="control" type="text" name = "nombre" id = "nombre" placeholder = "Nombre">
+          <input class="control" type="number" name = "edad" id = "edad" min = "0" max = "70" step = "1" placeholder = "Edad">
+          <input class="control" type="text" name = "usuario" id = "usuario" placeholder = "Usuario">
+          <input class="control" type="password" name = "contrasena" id = "contrasena" placeholder = "Contraseña">
+          <p>Estoy de acuerdo con <a href="#">Términos y Condiciones</a> </p>
+
+          <input class="boton" type="button" id = "Registrar" value = "Registrar">
+
+          <p><a href="Login.html">¿Ya tengo Cuenta?</a></p>
+
+        </form>
+    	</section>
+    </div>
+
+    <script src="indexedDB.js"></script>
+</body>
+
+</html>
